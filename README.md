@@ -14,11 +14,6 @@ Built with **React + Vite** and styled beautifully with **Tailwind CSS**.
 
 ---
 
-## 🖼️ Preview
-![CoffeeHouse Preview](link-to-your-screenshot.png)
-
----
-
 ## 🛠️ Tech Stack
 - **Frontend:** React.js, Vite, Tailwind CSS
 - **Deployment:** GitHub Pages
