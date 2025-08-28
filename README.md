@@ -20,17 +20,3 @@ Built with **React + Vite** and styled beautifully with **Tailwind CSS**.
 - **Version Control:** Git & GitHub
 
 ---
-
-## 📦 Installation
-```bash
-# Clone this repository
-git clone https://github.com/your-username/CoffeeHouse.git
-
-# Navigate into the folder
-cd CoffeeHouse
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
