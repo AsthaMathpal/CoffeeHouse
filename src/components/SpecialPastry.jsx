@@ -6,7 +6,7 @@ const SpecialPastry = () => {
   const [eligible, setEligible] = useState(false);
 
   const handleCheck = () => {
-    if (parseInt(age) >= 18 && parseInt(age) % 10 === 0) {
+    if (parseInt(age) == 18 || parseInt(age) == 21 || parseInt(age) ==  50 || parseInt(age) == 75 || parseInt(age) == 100) {
       setEligible(true);
     } else {
       setEligible(false);
