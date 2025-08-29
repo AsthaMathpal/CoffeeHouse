@@ -1,24 +1,42 @@
-import React from 'react'
+import React from "react";
 
 const ResponsiveMenu = ({ open, setOpen }) => {
-    return (
-        <div className={`${open ? "left-0" : "-left-[100%]"} fixed bottom-0 top-0 x-30 flex h-screen w-[75%] flex-col justify-between bg-amber-950 px-8 pb-6 pt-16 text-black md:hidden rounded-r-xl shadow-md transition-all`}>
-            <div>
-                <nav className='mt-12'>
-                    <ul className='flex flex-col gap-7 text-lg font-semibold text-white'>
-                        <a href="/"><li onClick={()=>setOpen(false)} className='cursor-pointer'>Home</li></a>
-                        <a href="#menu"><li onClick={()=>setOpen(false)} className='cursor-pointer'>Menu</li></a>
-                        <a href="#about"><li onClick={()=>setOpen(false)} className='cursor-pointer'>About</li></a>
-                        <a href="#testimonial"><li onClick={()=>setOpen(false)} className='cursor-pointer'>Testimonial</li></a>
-                        <a href="#contact"><button onClick={()=>setOpen(false)} className='bg-amber-800 text-white hover:bg-amber-900 px-3 py-1 rounded-md'>Contact</button></a>
-                    </ul>
-                </nav>
-            </div>
-             <div className='text-white'>
-                <h1>Made with ❤️ by Astha</h1>
-             </div>
-        </div>
-    )
-}
+  return (
+    <>
+      {/* Sidebar Menu */}
+      <div
+        className={`fixed top-0 left-0 h-screen w-[75%] bg-amber-900 p-5 transition-transform duration-300 z-50 flex flex-col justify-between ${
+          open ? "translate-x-0" : "-translate-x-full"
+        }`}
+      >
+        {/* Menu items */}
+        <nav className="mt-12 flex flex-col gap-7 text-lg font-semibold text-white">
+          <a href="/" onClick={() => setOpen(false)}>
+            Home
+          </a>
+          <a href="#menu" onClick={() => setOpen(false)}>
+            Menu
+          </a>
+          <a href="#about" onClick={() => setOpen(false)}>
+            About
+          </a>
+          <a href="#testimonial" onClick={() => setOpen(false)}>
+            Testimonial
+          </a>
+          <a href="#contact" onClick={() => setOpen(false)}>
+            <button className="bg-amber-800 px-4 py-2 rounded-md hover:bg-amber-700">
+              Contact
+            </button>
+          </a>
+        </nav>
 
-export default ResponsiveMenu
+        {/* Footer message inside sidebar */}
+        <p className="text-white text-sm text-center">
+          Made with ❤️ by Astha
+        </p>
+      </div>
+    </>
+  );
+};
+
+export default ResponsiveMenu;
