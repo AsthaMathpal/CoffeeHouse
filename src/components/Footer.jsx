@@ -71,7 +71,7 @@ const Footer = () => {
                             <h1 className='text-xl font-semibold sm:text-left mb-3'>Address</h1>
                             <div>
                                 <p className='mb-3'>Noida,sector 44</p>
-                                <p>+91 7452839499</p>
+                                <p>+91 123456789</p>
                                 {/* social links */}
                                 <div className='flex items-center gap-3 mt-6'>
                                     <a href="#">
