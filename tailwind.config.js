@@ -1,17 +1,20 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
-      fontFamily:{
+      fontFamily: {
         sans: ["Poppins", "sans-serif"],
-        cursive:["Pacifico", "Sriracha", "cursive"],
+        cursive: ["Pacifico", "Sriracha", "cursive"],
         cursive2: ["Sriracha", "cursive"],
-      }
+      },
     },
   },
-  plugins: [],
-}
+  plugins: [
+    require('@tailwindcss/forms'),
+    // Add more plugins here if needed
+  ],
+};
