@@ -35,7 +35,7 @@ const Testimonials = () => {
         dots: true,
         arrows: false,
         infinite: true,
-        speed: 500,
+        speed: 750,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
@@ -77,14 +77,14 @@ const Testimonials = () => {
                     <motion.h1 
                      initial={{opacity:0,y:100}}
                      whileInView={{opacity:1,y:0}}
-                     transition={{duration:2.5, delay:1.5}}
+                     transition={{duration:0.5, delay:0.1}}
                     className='text-center text-amber-900 text-4xl font-bold font-cursive'>Testimonials</motion.h1>
                 </div>
                 {/* Testimonials cards */}
                 <motion.div
                  initial={{opacity:0,scale:0.5}}
                  whileInView={{opacity:1,scale:1}}
-                 transition={{duration:2.5, delay:1.5}}
+                 transition={{duration:0.5, delay:0.1}}
                 >
                     <Slider {...settings}>
                         {TestimonialData.map((data) => (

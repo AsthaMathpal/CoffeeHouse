@@ -18,7 +18,7 @@ const Contact = () => {
             <motion.div
                 initial={{ opacity: 0, scale: 0.5 }}
                 whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 2.5, delay: 0.5 }}
+                transition={{ duration: 2, delay: 0.5 }}
                 className='w-full max-w-3xl bg-amber-900/20 rounded-lg shadow-md p-8'>
                 <h1
                     className='text-3xl font-bold text-center text-amber-900 mb-6 font-cursive'>Contact Us</h1>

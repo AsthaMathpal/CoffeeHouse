@@ -69,7 +69,7 @@ const Menu = () => {
           <motion.h1
             initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 2.5, delay: 1.5 }}
+            transition={{ duration: 1, delay: 0.2 }}
             className='text-4xl font-bold font-cursive text-amber-900'
           >
             Best Coffee for You
@@ -81,7 +81,7 @@ const Menu = () => {
         <motion.div
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 2.5, delay: 1.5 }}
+          transition={{ duration: 1, delay: 0.2}}
           className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 place-items-center'
         >
           {MenuData.map((menu) => (
