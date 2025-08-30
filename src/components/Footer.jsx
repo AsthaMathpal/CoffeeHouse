@@ -39,7 +39,6 @@ const Footer = () => {
                     <div className='py-8 px-4'>
                         <a href="#" className='font-semibold tracking-widest text-2xl sm:text-3xl font-cursive'>CoffeHouse</a>
                         <p className='pt-4'>Crafted Coffee, Cozy Vibes, Unforgettable Moments – Your Perfect Espresso Escape</p>
-                        <a href="https://www.youtube.com/@WebeliteBuilders" target='_blank' className='inline-block bg-[#3d2517] py-2 px-4 mt-5 text-sm rounded-full'>Visit our YouTube Channel</a>
                     </div>
                     {/* footer links */}
                     <div className='col-span-2 grid grid-cols-2 sm:grid-cols-3 md:pl-10'>
@@ -71,7 +70,7 @@ const Footer = () => {
                             <h1 className='text-xl font-semibold sm:text-left mb-3'>Address</h1>
                             <div>
                                 <p className='mb-3'>Noida,sector 44</p>
-                                <p>+91 7452839499</p>
+                                <p>+91 123456789</p>
                                 {/* social links */}
                                 <div className='flex items-center gap-3 mt-6'>
                                     <a href="#">
