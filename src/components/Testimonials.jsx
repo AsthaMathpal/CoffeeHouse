@@ -6,25 +6,25 @@ import { motion } from 'framer-motion';
 
 const TestimonialData = [{
     id: 1,
-    name: "Milind",
+    name: "John",
     text: "Best espresso i've ever had! Rich flavor and perfect crema.",
     img: "https://picsum.photos/101/101",
 },
 {
     id: 2,
-    name: "Devyash",
+    name: "Alice",
     text: "The ambiance is cozy and the staff is super friendly. A must-visit for coffee lovers!",
     img: "https://picsum.photos/102/102",
 },
 {
     id: 3,
-    name: "Bhoomi",
+    name: "Bob",
     text: "The Aesthetics of the cafe is so pleasing. Loved the latte art too!",
     img: "https://picsum.photos/104/104",
 },
 {
     id: 5,
-    name: "Chirag",
+    name: "Christian",
     text: "Amazing variety of blends and brewing methods. Every cup is a delight!",
     img: "https://picsum.photos/103/103",
 },
